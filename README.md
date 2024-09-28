@@ -1,5 +1,7 @@
 # WA_CodingChallenge_Perception
 ##answer.png
+![alt text](https://github.com/user-attachments/assets/eaa6f69f-48b1-4f02-89a6-838a92649a09)
+
 
 ## Methodolgy
 ### Objective:
@@ -21,5 +23,5 @@ png file | same png file with path
 ## What did you try and why do you think it did not work.
 I tried to look for cones based on color, at first because of how different the color of the cones were to the rest of the image, I had a larger range of values that I had defined as a cone. When I had this, the light and reflections from the exit signs were also flagged as cones, as they were within the range I had defined, resulting in my path running parallel across the image. I created another file that I used to find the specific values of the cones, which I used to tune the values of my mask. 
 
-## What libraries are used##
+## What libraries are used
 OpenCV and numpy
